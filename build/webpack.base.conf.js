@@ -8,7 +8,16 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-
+const createLintingRule = () => ({
+  test: /\.(js|vue)$/,
+  loader: 'eslint-loader',
+  enforce: 'pre',
+  include: [resolve('src'), resolve('test')],
+  options: {
+    formatter: require('eslint-friendly-formatter'),
+    emitWarning: !config.dev.showEslintErrorsInOverlay
+  }
+})
 
 module.exports = {
   context: path.resolve(__dirname, '../'),
@@ -31,17 +40,17 @@ module.exports = {
   },
   module: {
     rules: [
+      ...(config.dev.useEslint ? [createLintingRule()] : []),
       {
-        test: /\.vue$/,
-        loader: 'vue-loader',
-        options: {
-            vueLoaderConfig,
-            loaders:{
-                scss: 'vue-style-loader!css-loader!sass-loader', // <style lang="scss">
-                sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax' // <style lang="sass">
-            }
-        }
-
+          test: /\.vue$/,
+          loader: 'vue-loader',
+          options: {
+              vueLoaderConfig,
+              loaders:{
+                  scss: 'vue-style-loader!css-loader!sass-loader', // <style lang="scss">
+                  sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax' // <style lang="sass">
+              }
+          }
       },
       {
         test: /\.js$/,

@@ -1,0 +1,606 @@
+.module{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+.module .module_box{
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.module .module_box .module_head{
+    width: 100%;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background: #fc725e;
+    border-radius: 10px 10px 0 0 ;
+    position: relative;
+}
+
+.module .module_box .module_head .icon-iconfontguanbi{
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:20px;
+    cursor: pointer;
+}
+
+.module .module_box .module_content{
+    width: 100%;
+    height:calc(100% - 50px);
+}
+
+.module .module_box .module_content .zx_Choice{
+    width: 100%;
+    height:100%;
+}
+
+
+.module .module_box .module_content .zx_Choice.news_Choice{
+    display: none;
+}
+.module .module_box .module_content .news_Choice.active{
+    display: block;
+}
+.news_white .module_box .module_head{
+    background: #fff ;
+}
+.news_white .module_box .module_head span{
+    color: #333;
+}
+.news_white .module_box .module_head .icon-iconfontguanbi{
+    color: #999;
+}
+.module .module_box .module_content .zx_Choice .zx_file{
+    width: 100%;
+    height:auto;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+.module .module_box .module_content .zx_Choice .zx_file .zx_browse{
+    width: 100px;
+    height:40px;
+    background: #fc725e;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-left:20px;
+    cursor: pointer;
+}
+
+.module .module_box .module_content .zx_Choice .zx_file .zx_upload{
+    display: block;
+    width: 150px;
+    height:40px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    margin:0 auto;
+    margin-top:30px;
+    background: #fc725e;
+    cursor: pointer;
+}
+.module .module_box .module_content .zx_Choice .zx_file .zx_input{
+    width:440px ;
+    height:40px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding-left:20px;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul{
+    width: 100%;
+    height:auto;
+    padding-left:30px;
+    overflow: hidden;
+    padding-top:20px;
+}
+
+.module .module_box .module_content .zx_Choice .Choice_ul li{
+    width: 270px;
+    height:170px;
+    float: left;
+    position: relative;
+    margin-right:20px;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input{
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    position: absolute;
+    z-index: 200;
+    top:0;
+    left:0;
+    background: red;
+    cursor: pointer;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li .li{
+    width: 100%;
+    height:100%;
+    color: #ccc;
+    padding-top:30px;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li .li img{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    display: none;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input:checked+.li{
+    color: #333333;
+    border:1px solid #ccc;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input:checked+.li p{
+    color: #999;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input:checked+.li img{
+    display: block;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input:checked+.li span.text_color{
+    color: #fc725e;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li input:checked+.li span.text_color i{
+    color: #333;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li span{
+    display: block;
+    font-size: 16px;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    bottom:15px;
+    text-align: center;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li span.text_color{
+    color: #ccc;
+    font-size: 20px;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li span.text_color i{
+    font-size: 12px;
+    color: #ccc;
+    margin-left:3px;
+}
+.module .module_box .module_content .zx_Choice .confirm{
+    width: 150px;
+    height:38px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    margin:30px auto;
+    background: #fc725e;
+    cursor: pointer;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li h3{
+    font-size: 20px;
+    text-align: center;
+}
+.module .module_box .module_content .zx_Choice .Choice_ul li p{
+    padding:15px 14px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+/*购买服务费*/
+.module .module_box .zx_Choice .Payment_ul{
+    width: 100%;
+    height:auto;
+    padding-top:13px;
+    padding-left:30px;
+}
+.module .module_box .zx_Choice .Payment_ul:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+.module .module_box .zx_Choice .Payment_ul li{
+    width: 182px ;
+    height:122px ;
+    border-radius: 10px;
+    margin-right:17px;
+    float: left;
+    position: relative;
+    padding:0;
+    margin-top:17px;
+}
+.module .module_box .zx_Choice .Payment_ul li input[name='radio1']{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    z-index: 100;
+}
+.module .module_box .zx_Choice .Payment_ul li input[name='radio1']:checked+.li{
+    border: 2px solid #fc725e;
+}
+.module .module_box .zx_Choice .Payment_ul li .li{
+    width: 100%;
+    height:100%;
+    border-radius: 10px;
+    border:2px solid #ededed;
+    padding-top:26px;
+}
+.module .module_box .zx_Choice .Payment_ul li .li .Pay_name{
+    width: 40px;
+    height:20px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    top:1px;
+    right:10px;
+    border-radius: 0 0 6px 6px;
+    background: #ffae21;
+}
+.module .module_box .zx_Choice .Payment_ul li .li .Pay_name.Recommend{
+    background: #ffae21;
+}
+.module .module_box .zx_Choice .Payment_ul li .li .Pay_name.Hot{
+    background: #ff3333;
+}
+.module .module_box .zx_Choice .Payment_ul li .li .Pay_name.province{
+    background: #25dc7f;
+}
+.module .module_box .zx_Choice .Payment_ul li .li .Payment_money{
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.module .module_box .zx_Choice .Payment_ul li .li span{
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    padding-left:45px;
+    margin-top:5px;
+}
+.module .module_box .zx_Choice .Payment_ul li .li span .yellow{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    background: #fabe5e;
+    margin-right:10px;
+}
+
+.module .module_box .zx_Choice .Payment_ul li .li span .red{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    background: #fff;
+    border:1px solid #5c7ffd;
+    margin-right:10px;
+    color: #5c7ffd;
+}
+
+.module .module_box .zx_Choice .see_table{
+    width: 624px;
+    height:430px;
+    border-radius: 6px;
+    border: 1px solid #ededed;
+    margin:10px auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+.module .module_box .zx_Choice .see_table tr{
+    width: 100%;
+    height:auto;
+    font-size: 12px;
+    border-bottom:1px solid #ededed;
+}
+.module .module_box .zx_Choice .see_table thead tr{
+    background: #f6f6f6;
+}
+.module .module_box .zx_Choice .see_table tr th{
+    font-size: 12px;
+    color: #666;
+    padding:13px 0;
+}
+.module .module_box .zx_Choice .see_table tr td{
+    text-align: center;
+}
+.module .module_box .zx_Choice .see_table tr td p{
+    text-align: left;
+    line-height: 20px;
+    padding-right:10px;
+}
+
+.module .module_box .zx_Choice .amygdala_See{
+    font-size: 12px;
+    color: #333;
+    line-height: 24px;
+    padding:0 40px;
+    text-indent: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.module .module_box .module_content .zx_Choice .addForm{
+    width:100%;
+    height:auto;
+    padding-top:10px;
+}
+.module .module_box .module_content .zx_Choice .addForm li{
+    width: 100%;
+    height:42px;
+    overflow: hidden;
+    padding:0 !important;
+    line-height: 42px;
+    margin-top:20px;
+}
+
+.module .module_box .module_content .zx_Choice .addForm li label{
+    display: block;
+    float: left;
+    width: 170px;
+    text-align: right;
+    padding-right:15px;
+    font-size: 14px;
+    color: #333;
+}
+.module .module_box .module_content .zx_Choice .addForm li label span{
+    color: #ff6666;
+    margin-right:10px;
+}
+.module .module_box .module_content .zx_Choice .addForm li .addFormInput{
+    display: block;
+    float: left;
+    height:100%;
+    width: calc(100% - 170px);
+    overflow: hidden;
+}
+.module .module_box .module_content .zx_Choice .addForm li input{
+    width: 120px;
+    height:40px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    padding-left:20px;
+    display: block;
+    float: left;
+    margin-right:20px;
+}
+.module .module_box .module_content .zx_Choice .addForm li input.public_input{
+    width: 300px;
+}
+
+.module .module_box .module_content .zx_Choice .Choice{
+    width: 100%;
+    height: auto;
+    padding-left:140px;
+    margin-top:15px;
+}
+.module .module_box .module_content .zx_Choice .moren{
+    padding-left:170px;
+    padding-top:10px;
+}
+.module .module_box .module_content .zx_Choice .moren label{
+    font-size: 14px;
+    color: #000;
+    margin-left:10px;
+    cursor: pointer;
+}
+.module .module_box .module_content .zx_Choice .Choice button{
+    width: 150px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    background: #ccc;
+    margin-right:20px;
+    border-radius: 50px;
+}
+.module .module_box .module_content .zx_Choice .Choice button.active{
+    background: #fc725e;
+}
+
+
+
+.Forward{
+    width: 100%;
+    height:100%;
+}
+.Forward .ForwardHead{
+    width: 530px;
+    margin:0 auto;
+    height:55px;
+    border-bottom:1px solid #ededed ;
+}
+.Forward .ForwardHead li{
+    float: left;
+    width: 33.33%;
+    height:100%;
+    text-align: center;
+    line-height: 55px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+}
+.Forward .ForwardHead li.active{
+    color: #fc725e;
+    border-bottom:2px solid #fc725e;
+}
+.Forward .ForwardCenter{
+    width: 100%;
+    height:calc(100% - 55px);
+}
+.Forward .ForwardCenter .box{
+    width: 100%;
+    height:100%;
+    display: none;
+}
+.Forward .ForwardCenter .box.active{
+    display: block;
+}
+
+.Forward .ForwardCenter .box .box_ul{
+    width: 100%;
+    height: 100%;
+    padding-top:20px;
+}
+.Forward .ForwardCenter .box .box_ul li{
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    margin-top:10px;
+}
+.Forward .ForwardCenter .box .box_ul li.btn{
+    text-align: center;
+}
+.Forward .ForwardCenter .box .box_ul  p{
+    display: block;
+    color: #fc725e;
+    font-size: 12px;
+    text-align: center;
+    margin-top:10px;
+}
+.Forward .ForwardCenter .box .box_ul li label{
+    display: block;
+    width: 185px;
+    text-align: right;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    margin-right:20px;
+}
+.Forward .ForwardCenter .box .box_ul li>input{
+    width: 300px;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    float: left;
+    padding-left:10px;
+}
+
+.Forward .ForwardCenter .box .box_ul li .ForwardSelect{
+    width: 300px;
+    height:40px;
+    border-radius: 4px;
+    float: left;
+}
+
+.Forward .ForwardCenter .box .box_ul li p{
+    width: 430px;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color: #999;
+    margin:0 auto;
+}
+.Forward .ForwardCenter .box .box_ul li button{
+    width: 150px;
+    height:38px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #fff;
+    background: #fc725e;
+    cursor: pointer;
+}
+.Forward .ForwardCenter .box .box_ul li button.hui{
+    background: #ccc;
+    margin-left:20px;
+}
+
+
+.module .module_box .module_content .zx_Choice .Custom{
+    width: 100%;
+    height:100%;
+    padding:20px 30px;
+    position: relative;
+}
+.module .module_box .module_content .zx_Choice .Custom .num{
+    font-size: 12px;
+    color: #ccc;
+    position: absolute;
+    right:40px;
+    bottom:95px;
+}
+.module .module_box .module_content .zx_Choice .Custom label{
+    font-size: 14px;
+    color: #333;
+    margin-right:13px;
+}
+.module .module_box .module_content .zx_Choice .Custom input{
+    width: 300px;
+    height:30px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    padding-left:10px;
+}
+.module .module_box .module_content .zx_Choice .Custom textarea{
+    width: 100%;
+    height:80px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    padding:10px;
+    margin-top:20px;
+    display: block;
+}
+
+.module .module_box .module_content .zx_Choice .Custom .bottom{
+    width: 100%;
+    height:auto;
+    margin-top:30px;
+    text-align: center;
+}
+.module .module_box .module_content .zx_Choice .Custom .bottom button{
+    width: 150px;
+    height:38px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #fff;
+    background: #fc725e;
+    cursor: pointer;
+}
+
+.module .module_box .module_content .zx_Choice .Custom .bottom button.hui{
+    background: #ccc;
+    margin-left:20px;
+}

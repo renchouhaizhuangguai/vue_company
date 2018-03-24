@@ -1,0 +1,228 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+body,html{
+    background: #f1f5f8;
+    width:100%;
+    height:100%;
+}
+#nav::-webkit-scrollbar{
+    display: none;
+}
+.public{
+    width:100%;
+    height:100%;
+}
+#head{
+    width:100%;
+    height:50px;
+    line-height: 50px;
+    padding:0 40px;
+    background: #fc725e;
+    background-image: url('../img/logo.png');
+    background-repeat:no-repeat ;
+    background-size: 70px ;
+    background-position: 40px center;
+    position: fixed;
+    z-index: 1000;
+    top:0;
+}
+#head .head_text{
+    font-size: 14px;
+    color: #fff;
+    margin-left:90px;
+}
+#head .head_right{
+    font-size: 14px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+
+#head .head_right .admin{
+    width:120px;
+    height:0;
+    position: absolute;
+    bottom:-100px;
+    right:0;
+    transition: 0.5s all ease;
+    overflow: hidden;
+}
+#head .head_right .admin.active{
+    height:100px;
+    overflow: inherit;
+}
+#head .head_right .admin .admin_s{
+    width:120px;
+    border-radius: 4px;
+    height:90px;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+    left:-100%;
+    opacity: 0;
+    top:10px;
+    transition: 0.5s all ease;
+}
+#head .head_right .admin  .admin_s.active{
+    left:0;
+    opacity: 1;
+}
+#head .head_right .admin img{
+    position: absolute;
+    top:-8px;
+    left:0;
+    right:0;
+    margin:auto;
+    display: block;
+    width:20px;
+}
+#head .head_right .admin .admin_s .admin_box{
+    width:100%;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fc725e;
+    cursor: pointer;
+}
+
+#head .head_right .admin .admin_s .admin_box a{
+    color: #333;
+    display: block;
+    width:100%;
+    height:100%;
+    transition: 0.3s all ease;
+}
+#head .head_right .admin .admin_s .admin_box:nth-of-type(1) a{
+    border-radius: 4px 4px 0 0;
+}
+#head .head_right .admin .admin_s .admin_box a:hover{
+    background: #fc725e;
+    color: #fff;
+}
+#head .head_right span{
+    float: left;
+    margin-right:11px;
+}
+#head .head_right img{
+    display: block;
+    width:9px;
+    float: right;
+    margin-top:22px;
+}
+#nav{
+    width:220px;
+    height:100%;
+    background: #fff;
+    padding-top:73px;
+    position: fixed;
+    left:0;
+    top:0;
+    overflow-y: scroll;
+}
+#nav ul {
+    width:100%;
+    height:100%;
+}
+#nav ul li{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    padding-left:50px;
+    font-size: 14px;
+    position: relative;
+    transition: all 0.2s ease;
+}
+#nav ul li.active{
+    background: #f5f5f5;
+}
+#nav ul li:hover{
+    background: #f5f5f5;
+}
+#nav ul li:hover a{
+    color: #fc725e;
+}
+#nav ul li:hover a i{
+    color: #fc725e;
+}
+#nav ul li.active::after{
+    content: '';
+    width:4px;
+    height:24px;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    margin:auto;
+    background: #fc725e;
+}
+#nav ul li.active>a{
+    color: #fc725e;
+}
+#nav ul li.active>a i{
+    color: #fc725e;
+}
+#nav ul li a{
+    color: #666;
+    overflow: hidden;
+}
+#nav ul li a i{
+    font-size: 20px;
+    color: #999;
+    margin-right:14px;
+    display: block;
+    float: left;
+}
+#nav ul li a span{
+    display: block;
+    float: left;
+}
+#nav ul .nav_hv{
+    height:25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #ccc;
+    padding-left:30px;
+}
+#nav ul .nav_hv:hover{
+    background: #fff;
+}
+.section{
+    width:calc(100% - 220px);
+    height:auto;
+    padding:20px;
+    padding-top:70px;
+    margin-left:220px;
+}
+
+.public_block{
+    width:100%;
+    height:100%;
+    padding:30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1375px ){
+    .section{
+        min-width:1140px;
+    }
+
+}
+
+
+.timeOut{
+   background: #ccc !important;
+}
+.colorOut{
+    color: #ccc !important;
+}

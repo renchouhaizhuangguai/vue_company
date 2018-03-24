@@ -1,0 +1,282 @@
+.Auth_head .head_box .jump_invoice {
+  width: 100%;
+  height: Auto; }
+  .Auth_head .head_box .jump_invoice:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both; }
+  .Auth_head .head_box .jump_invoice li {
+    float: left;
+    margin-right: 50px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+    position: relative; }
+    .Auth_head .head_box .jump_invoice li.isActive {
+      font-weight: bold;
+      color: #333333; }
+      .Auth_head .head_box .jump_invoice li.isActive::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #fc725e;
+        position: absolute;
+        left: 0;
+        bottom: -10px; }
+
+.Auth_head .adminInvoice {
+  width: 100%;
+  height: auto;
+  margin-top: 15px; }
+  .Auth_head .adminInvoice .adminInvoice_head {
+    width: 100%;
+    height: 30px; }
+    .Auth_head .adminInvoice .adminInvoice_head ul {
+      width: 100%;
+      height: 100%;
+      overflow: hidden; }
+      .Auth_head .adminInvoice .adminInvoice_head ul .left {
+        width: 0; }
+      .Auth_head .adminInvoice .adminInvoice_head ul li {
+        height: 100%;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        color: #fff;
+        position: relative;
+        z-index: 10; }
+        .Auth_head .adminInvoice .adminInvoice_head ul li.claim_li {
+          background: #fdb8ae !important; }
+          .Auth_head .adminInvoice .adminInvoice_head ul li.claim_li i {
+            width: 0;
+            border-left: 15px solid #fdb8ae !important;
+            border-top: 15px solid transparent;
+            border-bottom: 15px solid transparent; }
+        .Auth_head .adminInvoice .adminInvoice_head ul li.claim_hui {
+          background: #fc725e !important; }
+      .Auth_head .adminInvoice .adminInvoice_head ul li:nth-child(1) {
+        width: calc(50% - 15px);
+        float: left;
+        background: #fc725e; }
+        .Auth_head .adminInvoice .adminInvoice_head ul li:nth-child(1) i {
+          display: block;
+          width: 0;
+          border-left: 15px solid #fc725e;
+          border-top: 15px solid transparent;
+          border-bottom: 15px solid transparent;
+          position: absolute;
+          top: 0;
+          right: -15px; }
+      .Auth_head .adminInvoice .adminInvoice_head ul li:nth-child(2) {
+        width: 50%;
+        float: right;
+        background: #cacaca; }
+        .Auth_head .adminInvoice .adminInvoice_head ul li:nth-child(2) i {
+          display: block;
+          width: 0;
+          border-left: 15px solid #fff;
+          border-top: 15px solid transparent;
+          border-bottom: 15px solid transparent;
+          position: absolute;
+          top: 0;
+          left: 0; }
+  .Auth_head .adminInvoice .adminList {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background: #f6f6f6;
+    line-height: 50px;
+    padding-left: 30px;
+    position: relative; }
+    .Auth_head .adminInvoice .adminList i {
+      display: block;
+      width: 4px;
+      height: 16px;
+      background: #fc725e;
+      position: absolute;
+      left: 20px;
+      top: 0;
+      bottom: 0;
+      margin: auto; }
+    .Auth_head .adminInvoice .adminList span {
+      font-size: 16px;
+      color: #333; }
+  .Auth_head .adminInvoice .adminQuire {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    padding-top: 20px; }
+    .Auth_head .adminInvoice .adminQuire label {
+      font-size: 12px;
+      color: #333; }
+    .Auth_head .adminInvoice .adminQuire .form_time {
+      display: inline-block;
+     }
+
+      .Auth_head .adminInvoice .adminQuire .form_time span {
+        margin: 0 10px;
+        font-size: 12px;
+        color: #000; }
+      .Auth_head .adminInvoice .adminQuire .form_time input {
+        width: 147px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #cccccc; }
+      .Auth_head .adminInvoice .adminQuire .form_time .Order {
+        width: 370px; }
+    .Auth_head .adminInvoice .adminQuire button {
+      width: 120px;
+      height: 30px;
+      border-radius: 3px;
+      background: #fc725e;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer; }
+  .Auth_head .adminInvoice .invoiceList {
+    margin-top: 20px; }
+    .Auth_head .adminInvoice .invoiceList .addres {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #ff6666;
+      cursor: pointer; }
+      .Auth_head .adminInvoice .invoiceList .addres .icon-jia {
+        font-size: 16px;
+        margin-right: 10px; }
+      .Auth_head .adminInvoice .invoiceList .addres .hui {
+        font-size: 12px;
+        color: #999; }
+    .Auth_head .adminInvoice .invoiceList .invoiceLists {
+      width: 100%;
+      height: auto; }
+      .Auth_head .adminInvoice .invoiceList .invoiceLists .list_ul {
+        width: 100%;
+        height: auto; }
+        .Auth_head .adminInvoice .invoiceList .invoiceLists .list_ul li {
+          width: 100%;
+          height: 40px;
+          margin-bottom: 5px;
+          background: #f6f6f6;
+          text-align: justify;
+          padding: 0 80px; }
+          .Auth_head .adminInvoice .invoiceList .invoiceLists .list_ul li:after {
+            content: '';
+            width: 100%;
+            display: inline-block;
+            font-size: 0;
+            line-height: 0; }
+          .Auth_head .adminInvoice .invoiceList .invoiceLists .list_ul li p {
+            display: inline-block;
+            height: 100%;
+            line-height: 40px;
+            font-size: 12px;
+            color: #666; }
+            .Auth_head .adminInvoice .invoiceList .invoiceLists .list_ul li p span:nth-child(2) {
+              color: #000;
+              margin-left: 10px; }
+      .Auth_head .adminInvoice .invoiceList .invoiceLists .TotalMoney {
+        text-align: right;
+        font-size: 14px;
+        color: #333;
+        margin: 10px 0; }
+        .Auth_head .adminInvoice .invoiceList .invoiceLists .TotalMoney span {
+          font-size: 20px;
+          color: #ff6666; }
+  .Auth_head .adminInvoice .invoiceTitle {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    padding-left: 14px; }
+    .Auth_head .adminInvoice .invoiceTitle i {
+      width: 3px;
+      height: 14px;
+      background: #fc725e;
+      position: absolute;
+      top: 3px;
+      left: 0; }
+    .Auth_head .adminInvoice .invoiceTitle .hui {
+      font-size: 12px;
+      color: #999; }
+  .Auth_head .adminInvoice .Submit {
+    display: block;
+    margin: 60px auto;
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    background: #fc725e; }
+  .Auth_head .adminInvoice .informationCenter {
+    width: 100%;
+    height: 230px;
+    border: 1px solid #ededed;
+    margin-top: 16px; }
+    .Auth_head .adminInvoice .informationCenter ul {
+      width: 100%;
+      height: 100%; }
+      .Auth_head .adminInvoice .informationCenter ul li {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #999;
+        overflow: hidden; }
+        .Auth_head .adminInvoice .informationCenter ul li span:nth-child(1) {
+          width: 48%;
+          float: left;
+          text-align: right; }
+        .Auth_head .adminInvoice .informationCenter ul li span:nth-child(2) {
+          width: 48%;
+          float: right;
+          text-align: left; }
+
+.Auth_head .adminInvoice_Prompt {
+  width: 100%;
+  height: 100px;
+  border: 1px solid #ededed;
+  margin-top: 10px;
+  font-size: 12px;
+  padding-top: 10px;
+  background: #f6f6f6;
+  color: #666666; }
+  .Auth_head .adminInvoice_Prompt .left {
+    width: 75px;
+    float: left;
+    text-align: center; }
+  .Auth_head .adminInvoice_Prompt .right {
+    width: calc(100% - 75px);
+    float: left; }
+  .Auth_head .adminInvoice_Prompt .invoice_money {
+    font-size: 16px;
+    color: #333; }
+    .Auth_head .adminInvoice_Prompt .invoice_money p {
+      margin-top: 5px; }
+      .Auth_head .adminInvoice_Prompt .invoice_money p.text {
+        font-size: 12px;
+        color: #666; }
+      .Auth_head .adminInvoice_Prompt .invoice_money p span {
+        color: #fc725e; }
+  .Auth_head .adminInvoice_Prompt .invoice_money:nth-child(1) {
+    float: left;
+    padding-left: 30px;
+    }
+  .Auth_head .adminInvoice_Prompt .invoice_money:nth-child(2) {
+    float: right;
+    padding-right: 30px;
+   }
+    .Auth_head .adminInvoice_Prompt .invoice_money:nth-child(2) .money_box {
+      float: left;
+      margin-right: 30px; }
+    .Auth_head .adminInvoice_Prompt .invoice_money:nth-child(2) p {
+      text-align: right; }
+    .Auth_head .adminInvoice_Prompt .invoice_money:nth-child(2) button {
+      display: block;
+      width: 100px;
+      height: 30px;
+      border: 1px solid #fc725e;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #fc725e;
+      float: right;
+      cursor: pointer; }

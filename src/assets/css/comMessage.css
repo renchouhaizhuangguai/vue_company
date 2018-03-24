@@ -1,0 +1,1625 @@
+.goback {
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.goback .iconfont{
+    font-size: 12px;
+}
+.goback:hover {
+    color: #fc725e;
+}
+
+.goback:active {
+    color: #e5e5e5;
+}
+
+.combutton {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fc725e;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+.cancel {
+    background-color: #ccc;
+    color: #fff;
+}
+
+
+
+.mark {
+    font-size: 13px;
+    color: #fc725e;
+}
+
+
+
+.combutton.aa{
+    font-size: 14px;
+}
+.comBaseMes {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+}
+.comBaseMes .confirm{
+    width: 100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #fc725e;
+    border-radius: 50px;
+    margin-left:80px;
+    margin-top:20px;
+    cursor: pointer;
+}
+.mesTitle {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    box-align: center;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+.baseMesTitle {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.baseMesTitle > span {
+    font-size: 13px;
+}
+
+.red {
+    width: 4px;
+    height: 16px;
+    background-color: #fc725e;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.baseMes:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.firstCol {
+    float: left;
+    width: 44%;
+    margin-top: 5px;
+}
+
+.nameRow {
+    line-height: 28px;
+    margin: 15px 0;
+}
+
+.comName {
+    font-size: 13px;
+}
+
+.comNameMes {
+    padding-left: 15px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.comNameChange {
+    margin-left: 20px;
+    font-size: 12px;
+    color: #1a30aa;
+    cursor: pointer;
+}
+
+.secondCol {
+    float: left;
+    width: 28%;
+    position: relative;
+}
+
+.secondCol > .licenceBorder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.secondCol > .licenceBorder .zanLicence {
+    vertical-align: middle;
+}
+
+.secondCol > .licenceBorder .goUp {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(127, 127, 127, 0.7);
+    cursor: pointer;
+}
+
+.secondCol .tipsImg {
+    position: absolute;
+    left: 40px;
+    top: -60px;
+    z-index: 100;
+}
+
+.startProfAuthen .comBaseMes .baseMesTitles {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-align-items: center;
+    box-align: center;
+    -moz-box-align: center;
+    -webkit-box-align: center;
+}
+
+.startProfAuthen .comBaseMes .baseMesTitles .startBatch {
+    font-size: 13px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #3366cc;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.startProfAuthen .comBaseMes .baseMesTitles .startBatch:hover {
+    color: #fc725e;
+}
+
+.startProfAuthen .comBaseMes .baseMesTitles .startBatch .icon-shuangxianzuojiantou {
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.startProfAuthen .comBaseMes .authenMes {
+    width: 100%;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp {
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp .file1 {
+    width: 100px;
+    height: 100%;
+    border-radius: 4px;
+    background: #fc725e;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: #fff;
+    display: block;
+    float: left;
+}
+
+#file2 {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    z-index: -1;
+    position: relative;
+}
+#file3{
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    z-index: -1;
+    position: relative;
+}
+.startProfAuthen .comBaseMes .authenMes .btn {
+    height: 100%;
+    font-size: 14px;
+    color: #3366cc;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp .noFile {
+    width: 590px;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    line-height: 40px;
+    font-size: 12px;
+    color: #ccc;
+    padding-left: 20px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp .noFile .operation {
+    position: absolute;
+    right: 0;
+    width: 125px;
+    height: 100%;
+    top: 0;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp .noFile .operation button {
+    width: 60px;
+    height: 100%;
+    font-size: 12px;
+    color: #ff6666;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.startProfAuthen .comBaseMes .authenMes .betchApp .noFile .operation span {
+    display: block;
+    float: left;
+    color: #ff6666;
+}
+
+.startProfAuthen .comBaseMes .authenMes .thirdCol {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.startProfAuthen .comBaseMes .authenMes .thirdCol .nameRow {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.startProfAuthen .comBaseMes .authenMes .thirdCol .nameRow span {
+    padding-right: 10px;
+}
+
+.startProfAuthen .comBaseMes .authenMes .thirdCol .nameRow input {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.startProfAuthen .comBaseMes .checkReport {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.startProfAuthen .comBaseMes .checkReport .icon-shiyongbangzhu {
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+.startProfAuthen .comBaseMes .resume {
+    margin-top: 15px;
+}
+
+.startProfAuthen .comBaseMes .resume .report-title {
+    background-color: #fc725e;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 14px;
+    padding: 10px 25px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border {
+    border: 1px solid #ededed;
+    border-top: 0;
+    padding: 0 30px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders {
+    position: relative;
+    border-radius: 5px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders.solid{
+    border: 1px solid #ededed;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders.doubleCircle{
+    border: 1px solid #fc725e;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders.doubleCircle .nameRow{
+    background:#fff8f7 ;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders.doubleCircle .circle{
+    border: 5px solid #fc725e;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders .check{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 10;
+    opacity: 0;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders .check:checked+.nameRow{
+    border: 1px solid #fc725e;
+    border-radius: 5px;
+    background:#fff8f7 ;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders .check:checked+.nameRow .circle{
+    border: 5px solid #fc725e;
+    padding: 3px;
+    background-color: #fff;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorders:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder {
+    border-radius: 5px;
+    border: 1px solid #ededed;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder.one .nameRow{
+    border: 0;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder.doubleCircle {
+    border: 1px solid #fc725e;
+
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder.doubleCircle .nameRow{
+    background-color: #fff8f7;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder.doubleCircle .nameRow .circle{
+    border: 5px solid #fc725e;
+    padding: 3px;
+    background-color: #fff;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowBorder:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow {
+    margin: 0;
+    line-height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    padding:0 20px;
+    border: 1px solid #ededed;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameSpecial {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameSpecial input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    border: 1px solid #ededed;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameSpecial input::-webkit-input-placeholder{
+    color: #999
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameSpecial input.focus{
+    border-color:#fc725e;
+    background: #fff8f7;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .col-start {
+    width: 200px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.circle {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ededed;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.circle.close_jian {
+    background: #fc725e;
+    color: #fff;
+    text-align: center;
+    line-height: 12px;
+    font-size: 24px;
+    border: none;
+    padding: 0;
+}
+
+
+.bold {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .col-center {
+    min-width: 550px;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .btn-resume {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background: #fc725e;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .btn-resume.active{
+    background: #ccc;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .font-color-red {
+    float: right;
+    color: #fc725e;
+    min-width: 100px;
+    text-align: right;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .font-color-red .Mask{
+    width: 100px;
+    height:100%;
+    position: absolute;
+    z-index: 10;
+    left:0;
+    top:0;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .font-color-red .upState {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRow .font-color-red .combutton {
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-right: 10px;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial{
+    border: 0;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial .col-start {
+    width: 33%;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial .col-center {
+    min-width: 30%;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial .col-start span.name{
+    font-size: 14px;
+    color: #333;
+    margin-right:10px;
+}
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial .col-start .selectAll{
+    width: 160px;
+    height:40px;
+    border-radius: 3px;
+    border-color: #ccc;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .nameRowSpecial .font-color-red {
+    width: 30%;
+    color: #000;
+}
+
+
+.startProfAuthen .comBaseMes .resume .resume-border .addSelfQuestion {
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #ededed;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-border .addSelfQuestion .icon-jia {
+    color: #fc725e;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 1px;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-borders {
+    border-top: 1px solid #ededed;
+}
+
+.startProfAuthen .comBaseMes .resume .resume-borders .nameRow{
+    border: 0;
+    padding:0;
+}
+
+.startProfAuthen .comBaseMes .selects .nameRows {
+    cursor: pointer;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.startProfAuthen .comBaseMes .selects .nameRows .col-start {
+    position: relative;
+    padding-left: 20px;
+}
+.startProfAuthen .comBaseMes .selects .nameRows .col-start input[name='fileLoad']{
+    position: absolute;
+    top:0;
+    left:0;
+    opacity: 0;
+    z-index: 10;
+    width: 50%;
+    height:100%;
+}
+.startProfAuthen .comBaseMes .selects .nameRows .col-start input[name='fileLoad']:checked+.circle{
+    border: 5px solid #fc725e;
+    padding: 3px;
+    background-color: #fff;
+}
+.startProfAuthen .comBaseMes .selects .nameRows .col-start input[name='fileLoad']:checked+.circle+.bolds{
+   color: #fc725e;
+}
+.startProfAuthen .comBaseMes .selects .nameRows .circle {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.startProfAuthen .comBaseMes .selects .nameRows .bolds {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone {
+    width: 100%;
+    height: Auto;
+    position: relative;
+    margin-top: 15px;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone .phone {
+    width: 180px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 28px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    float: left;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone .phone .iconfont {
+    color: #ff6666;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone .phone input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone .text {
+    display: block;
+    float: left;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #333;
+    margin-left: 10px;
+}
+
+.startProfAuthen .comBaseMes .selects .filePhone .download {
+    float: left;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #3366cc;
+    padding-left: 20px;
+}
+
+.startProfAuthen .comBaseMes .combutton {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+}
+
+.startProfAuthen .comBaseMes .combutton :active {
+    background-color: #e5e5e5;
+}
+
+.startProfAuthen .comBaseMes .combuttonGray {
+    background-color: #cccccc;
+}
+
+.actImg {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    margin-top: 15px;
+}
+.actImg img{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.detailMes {
+    margin-top: 10px;
+}
+
+.detailMes .firstCol {
+    width: 33%;
+    min-width: 200px;
+}
+
+.detailMes .firstCol .nameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.detailMes .firstCol .nameRow .comNameMes {
+    display: inline-block;
+    width: 70%;
+}
+
+input.comNameMes, select.comNameMes {
+    width: 40%;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 14px;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    margin-left:12px;
+    transition: all 0.2s ease;
+}
+input.comNameMes:focus{
+    border: 1px solid #409EFF;
+}
+input.comNameMes::-webkit-input-placeholder, select.comNameMes::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ccc;
+    font-size: 14px;
+}
+
+input.comNameMes::-moz-placeholder,select.comNameMes::-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+}
+
+input.comNameMes::-moz-placeholder, select.comNameMes::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ccc;
+}
+
+input.comNameMes:-ms-input-placeholder, select.comNameMes:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ccc;
+}
+
+input.comNameMes a, select.comNameMes a {
+    -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+input.comNameMes input, select.comNameMes input {
+    -webkit-user-modify: read-write-plaintext-only;
+    border: none;
+    outline: medium;
+}
+
+input.comNameMes input, input.comNameMes textarea, input.comNameMes button, select.comNameMes input, select.comNameMes textarea, select.comNameMes button {
+    outline: none;
+    border: 0;
+    resize: none;
+    background: none;
+}
+
+.comChanCttf .nameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comChanCttf .nameRow .comName {
+    width: 90px;
+    font-size: 13px;
+    text-align: right;
+}
+
+.comChanCttf .nameRow .comNameMes {
+    margin-left: 15px;
+    width: 300px;
+}
+
+.comChanCttf .nameRow .combutton {
+    margin: 0;
+    margin-left: 15px;
+    width: 100px;
+}
+
+.comChanCttf .comBaseMes > .combutton {
+    margin: 0;
+    margin-left: 105px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.comChanName .uploadNameRow, .comUpLicence .uploadNameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.comChanName .uploadNameRow .addBorder, .comUpLicence .uploadNameRow .addBorder {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin-left: 135px;
+    border: 1px solid #ededed;
+}
+
+.comChanName .uploadNameRow .addBorder .icon-jia, .comUpLicence .uploadNameRow .addBorder .icon-jia {
+    font-size: 40px;
+    color: #ccc;
+}
+
+.comChanName .uploadNameRow .explain, .comUpLicence .uploadNameRow .explain {
+    margin-left: 20px;
+    width: 160px;
+    font-size: 12px;
+    color: #fc725e;
+}
+
+.comChanName .uploadNameRow .inputFile, .comUpLicence .uploadNameRow .inputFile {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.comChanName .nameRow, .comUpLicence .nameRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comChanName .nameRow .comName, .comUpLicence .nameRow .comName {
+    width: 120px;
+    text-align: right;
+}
+
+.comChanName .nameRow .comNameMes, .comUpLicence .nameRow .comNameMes {
+    margin-left: 15px;
+}
+
+.comChanName .combutton, .comUpLicence .combutton {
+    margin: 0;
+    margin-left: 140px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.cardAdmin .combutton {
+    margin-left: 65px;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.cardArea {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 3px 1px #ededed;
+    border-radius: 15px;
+    margin-top: 18px;
+    margin-left: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardArea > span {
+    color: #ccc;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.cardArea > img {
+    margin-top: 25px;
+}
+
+.cardArea .cardAreaTitle {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #fc725e;
+    color: #fff;
+    position: relative;
+}
+.cardArea .cardAreaTitle .iconfont{
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top:0;
+    right:10px;
+    bottom:0;
+    margin:auto;
+    cursor: pointer;
+}
+.cardArea .cardUserName {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cardArea .cardUserName > img {
+    margin-left: 20px;
+    float: left;
+}
+
+.cardArea .cardUserName > .cardName {
+    color: #999;
+    margin-left: 12px;
+    font-size: 13px;
+    float: left;
+
+}
+
+.cardArea .cardUserName > .nameText {
+    display: block;
+    margin-left: 10px;
+    font-size: 13px;
+    float: left;
+    width: 100px;
+}
+
+.combuttons {
+    width: 200px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.combuttons .combutton {
+    width: 80px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.authen {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.authen > img {
+    margin-left: 32px;
+}
+
+.authen > .cardName {
+    margin-left: 5px;
+    width: 65px;
+    font-size: 14px;
+}
+
+.authen > .nameText {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.authen > input.nameText {
+    color: #333;
+    margin-right: 10px;
+}
+
+.authen .serverCost {
+    color: #fe3d36;
+}
+
+.authen .mark {
+    color: #adadad;
+}
+
+.authen .styleImg {
+    margin-left: 22px;
+    font-size: 14px;
+
+}
+
+.authen .combutton {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.authen .line {
+    color: #fe3d36;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.authen .edit:hover {
+    color: #fc725e;
+}
+
+.authen1 {
+    margin-top: 20px;
+}
+
+.zx_Choice .combutton {
+    border-radius: 20px;
+}
+
+.inputFile {
+    width: 150px;
+    line-height: 40px;
+    opacity: 0;
+    position: absolute;
+    left: 136px;
+    top: 0;
+    cursor: pointer;
+}
+
+.comblacklist .nameRow .comNameMes {
+    margin-left: 20px;
+    width: 300PX;
+    height: 36px;
+}
+
+.comblacklist .combutton {
+    margin-left: 80px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.comblacklist .Auth_content {
+    margin-top: 20px;
+}
+
+.comblacklist .a_jump {
+    cursor: pointer;
+}
+
+.comblacklist .module_box .module_head {
+    background-color: #fff;
+}
+
+.comblacklist .module_box .module_head > .icon-iconfontguanbi {
+    color: #aaa;
+    font-size: 20px;
+}
+
+.comblacklist .deleteTitle {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+
+.comblacklist .combuttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.comblacklist .combuttons .combutton {
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+}
+
+.comStaffCard .goAuthen {
+    width: 80px;
+    text-align: center;
+    background-color: #fe3d36;
+    color: #fff !important;
+    border-radius: 15px;
+}
+
+.cardManager {
+    box-sizing: border-box;
+}
+
+.cardManager .comBaseMes {
+    min-width: 1072px;
+}
+
+.cardManager .comBaseMes:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.cardManager .thirdCol {
+    float: left;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 21%;
+    min-width: 200px;
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+}
+
+.cardManager .thirdCol .func {
+    margin-left: 15px;
+    font-size: 12px;
+    width: 50%;
+    min-width: 125px;
+}
+
+.cardManager .thirdCol .func div {
+    line-height: 30px;
+}
+
+.cardManager .thirdCol .func .goSet {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardManager .thirdCol .func .goSet .setUser {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.cardManager .thirdCol .func .goSet .goback {
+    margin-left: 18px;
+    color: #3d5bce;
+}
+.cardManager .thirdCol .func .goSet .goback.timeDown{
+    color: #ccc;
+}
+.cardManager .thirdCol .funcs {
+    border-right: 0;
+}
+
+.cardManager .thirdCol .funcs div {
+    line-height: 30px;
+}
+
+.cardManager .thirdCol .circleBg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #81c6e3;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+}
+
+.cardManager .thirdCol .circleBg > .icon-iconfontpaixingbang {
+    font-size: 30px;
+}
+
+.cardManager .thirdSpecial {
+    width: 14%;
+    min-width: 160px;
+    border: 0;
+}
+
+.cardManager .combuttons {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cardManager .combuttons .combutton {
+    width: 125px;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 15px;
+}
+
+.cardManager .downLoadFile {
+    float: right;
+    margin-right: 20px;
+    line-height: 30px;
+    color: #6988fc;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cardManager .downLoadFile .icon-xiazai {
+    font-size: 20px;
+}
+
+.cardManager .Auth_content .content_table .list .success {
+    color: #4fc16f;
+}
+
+.cardManager .Auth_content .content_table .list .failed {
+    color: #d6d6d6;
+}
+
+.cardManager .Auth_content .content_table .list .a_jump {
+    color: #fc725e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.cardManager .Auth_content .content_table .list .a_jump > i:before {
+    margin-top: 1px;
+}
+
+.cardManager .nameText {
+    width: 320px;
+    border-color: #ccc;
+    border-radius: 5px;
+}
+
+.comCardSetUser .baseMesTitle span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.comCardSetUser .nameText {
+    border-radius: 8px;
+    width: 300px;
+    border-color: #ccc;
+}
+
+.comCardSetUser .comExplain {
+    margin: 16px 0;
+}
+
+.comCardSetUser .comExplain .explain {
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 15px;
+    line-height: 20px;
+}
+
+.comCardSetUser .cardborder {
+    width: 300px;
+    border: 1px solid #ccc;
+    line-height: 40px;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comCardSetUser .cardborder .comNameMes {
+    width: 190px;
+    border: 0;
+    margin-left: 0;
+}
+
+.comCardSetUser .cardborder .goback {
+    margin-left: 10px;
+}
+
+.comCardSetUser .cardborder .colLine {
+    margin-left: 10px;
+}
+
+.comCardSetUser .zx_Choice .combutton {
+    margin-top: 30px;
+}
+
+.comCardSetUser .zx_Choice .colLine {
+    color: #ccc;
+}
+
+.comCardSetUser .zx_Choice .goback {
+    width: 70px;
+    color: #fc725e;
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 2px 3px;
+    text-align: center;
+}
+
+
+
+.comUpLogo .thirdCol {
+    float: left;
+    width: 400px;
+    min-width: 200px;
+}
+
+.comUpLogo .thirdCol .preview {
+    width: 170px;
+    height: 170px;
+    background: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color:#ededed ;
+}
+
+.comUpLogo .baseMesTitle > span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.comUpLogo .baseMesTitle .explain {
+    color: #fc725e;
+    margin-left: 30px;
+}
+
+.comUpLogo .baseMesTitle .logoUtils {
+    margin-left: 250px;
+}
+
+.comUpLogo .uploadLogo .addBorders {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-repeat:no-repeat;
+    background-size: 60px;
+    background-position: center center;
+}
+
+.comUpLogo .uploadLogo .addBorders .icon-jia {
+    font-size: 50px;
+    color: #ededed;
+    height: 30px;
+}
+
+.comUpLogo .uploadLogo .addBorders > span {
+    width: 100%;
+    height: 26px;
+    line-height: 24px;
+}
+
+.comUpLogo .uploadLogo .addBorders .iconImg {
+    margin-top: 50px;
+}
+
+.comUpLogo .uploadLogo .addBorders .iconText {
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.comUpLogo .uploadLogo .addBorders .inputFile {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.comUpLogo .combutton {
+    margin: 0;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.comUniteImg .thirdCol {
+    float: left;
+}
+
+.comUniteImg .uploadLogo {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.comUniteImg .uploadLogo .addBorders {
+    position: relative;
+    width: 375px;
+    height: 165px;
+    line-height: 165px;
+    text-align: center;
+    border: 1px solid #ededed;
+    background-color: #eee;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.comUniteImg .uploadLogo .addBorders .iconImg {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    display: block;
+}
+
+.comUniteImg .uploadLogo .addBorders .iconText {
+    position: absolute;
+    left: 137.5px;
+    top: 60px;
+    color: #fff;
+    background-color: #fc725e;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.comUniteImg .uploadLogo .addBorders .inputFile {
+    position: absolute;
+    left: 110px;
+    top: 0;
+    width: 150px;
+    height: 120px;
+}
+
+.comUniteImg .uploadLogo .explains {
+    position: absolute;
+    left: 35px;
+    top: 125px;
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+    color: #a3a3a3;
+}
+
+.comUniteImg .combutton {
+    margin: 0;
+    width: 150px;
+    border-radius: 20px;
+    margin-left: 112.5px;
+    margin-top:20px;
+}
+
+.comUniteImg .explain {
+    font-size: 12px;
+    width: 375px;
+    line-height: 20px;
+    color: #ccc;
+}
+
+.comShow .comBaseMes:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.comShow .thirdCol {
+    float: left;
+}
+
+.adviceAndReport .mesTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.adviceAndReport .mesTitle > span {
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    color: #999;
+}
+
+.adviceAndReport .mesTitle .thinShow {
+    font-weight: bold;
+    color: #333;
+    position: relative;
+}
+.adviceAndReport .mesTitle .thinShow::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fc725e;
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+}
+.adviceAndReport .nameRow {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.adviceAndReport .comName {
+    width: 60px;
+    text-align: center;
+}
+
+.adviceAndReport .comNameMes {
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.adviceAndReport textarea.comNameMes {
+    padding-top: 10px;
+    width: 90%;
+    height: 100px;
+    border: 1px solid #e5e5e5;
+    line-height: 20px;
+}
+
+.adviceAndReport .adviceborder {
+    margin-top: 20px;
+    width: 100%;
+    height: 110px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adviceAndReport .adviceborder .comNameMes {
+    border: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+}
+
+.adviceAndReport .adviceborder .computed {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.adviceAndReport .adviceborder .computed .total {
+    color: #d3d3d3;
+}
+
+.adviceAndReport .adviceborder .computed .line {
+    color: #d3d3d3;
+}
+
+.adviceAndReport .combutton {
+    margin: 0;
+    width: 100px;
+    margin-top: 20px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+}

@@ -1,0 +1,361 @@
+@import "mixin";
+.Auth_head .head_box .jump_invoice{
+  width: 100%;
+  height:Auto;
+  &:after{
+    @include clear;
+  }
+  li{
+    float: left;
+    margin-right:50px;
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+    position: relative;
+    &.isActive{
+      font-weight: bold;
+      color: #333333;
+      &::after{
+        content: '';
+        width: 100%;
+        height:2px;
+        background: #fc725e;
+        position: absolute;
+        left:0;
+        bottom:-10px;
+      }
+    }
+  }
+}
+.Auth_head .adminInvoice {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  .adminInvoice_head {
+    width: 100%;
+    height: 30px;
+    ul {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      .left {
+        width: 0;
+      }
+      li {
+        height: 100%;
+        text-align: center;
+        line-height: 30px;
+        font-size: 14px;
+        color: #fff;
+        position: relative;
+        z-index: 10;
+        &.claim_li{
+          background: #fdb8ae !important;
+          i{
+            width: 0;
+            border-left: 15px solid #fdb8ae !important;
+            border-top: 15px solid rgba(0, 0, 0, 0);
+            border-bottom: 15px solid rgba(0, 0, 0, 0);
+          }
+        }
+        &.claim_hui{
+          background: #fc725e !important;
+        }
+      }
+      li:nth-child(1) {
+        width: calc(50% - 15px);
+        float: left;
+        background: #fc725e;
+        i {
+          display: block;
+          width: 0;
+          border-left: 15px solid #fc725e;
+          border-top: 15px solid rgba(0, 0, 0, 0);
+          border-bottom: 15px solid rgba(0, 0, 0, 0);
+          position: absolute;
+          top: 0;
+          right: -15px;
+        }
+      }
+      li:nth-child(2) {
+        width: 50%;
+        float: right;
+        background: #cacaca;
+        i {
+          display: block;
+          width: 0;
+          border-left: 15px solid #fff;
+          border-top: 15px solid rgba(0, 0, 0, 0);
+          border-bottom: 15px solid rgba(0, 0, 0, 0);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+
+
+  .adminList{
+    width: 100%;
+    height:50px;
+    margin-top:10px;
+    background: #f6f6f6;
+    line-height: 50px;
+    padding-left:30px;
+    position: relative;
+    i{
+      display:block;
+      width: 4px;
+      height:16px;
+      background: #fc725e;
+      position: absolute;
+      left:20px;
+      top:0;
+      bottom:0;
+      margin:auto;
+    }
+    span{
+      font-size: 16px;
+      color: #333;
+    }
+  }
+
+  .adminQuire{
+    width: 100%;
+    height:70px;
+    background: #fff;
+    padding-top:20px;
+    label{
+      font-size: 12px;
+      color: #333;
+    }
+    .form_time{
+      display: inline-block;
+      margin-right:20px;
+      span{
+        margin:0 10px;
+        font-size: 12px;
+        color: #000;
+      }
+      input{
+        width: 160px;
+        height:30px;
+        border-radius: 3px;
+        border: 1px solid #cccccc;
+      }
+      .Order{
+        width: 400px;
+      }
+    }
+    button{
+      width: 120px;
+      height:30px;
+      border-radius: 3px;
+      background: #fc725e;
+      color: #fff;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .invoiceList{
+    margin-top:20px;
+
+    .addres{
+      margin-top:20px;
+      font-size: 14px;
+      color: #ff6666;
+      cursor: pointer;
+      .icon-jia{
+        font-size: 16px;
+        margin-right:10px;
+      }
+      .hui{
+        font-size:12px;
+        color: #999;
+      }
+    }
+
+    .invoiceLists{
+      width: 100%;
+      height:auto;
+      .list_ul{
+        width: 100%;
+        height:auto;
+        li{
+          width: 100%;
+          height:40px;
+          margin-bottom:5px;
+          background: #f6f6f6;
+          text-align: justify;
+          padding:0 80px;
+          &:after{
+              @include text_justify
+          }
+          p{
+            display: inline-block;
+            height:100%;
+            line-height: 40px;
+            font-size: 12px;
+            color: #666;
+            span:nth-child(2){
+              color: #000;
+              margin-left:10px;
+            }
+          }
+        }
+      }
+
+
+      .TotalMoney{
+        text-align: right;
+        font-size: 14px;
+        color: #333;
+        margin:10px 0;
+        span{
+          font-size: 20px;
+          color: #ff6666;
+        }
+      }
+    }
+
+  }
+
+
+
+  .invoiceTitle{
+    width: 100%;
+    height:auto;
+    margin-bottom:18px;
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    padding-left:14px;
+    i{
+      width: 3px;
+      height:14px;
+      background: #fc725e;
+      position: absolute;
+      top:3px;
+      left:0;
+    }
+    .hui{
+      font-size: 12px;
+      color: #999;
+    }
+  }
+
+
+  .Submit{
+    display: block;
+    margin:60px auto;
+    width: 200px;
+    height:40px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50px;
+    background: #fc725e;
+  }
+
+
+  .informationCenter{
+    width: 100%;
+    height:230px;
+    border: 1px solid #ededed;
+    margin-top:16px;
+    ul{
+      width: 100%;
+      height:100%;
+      li{
+        margin-top:30px;
+        font-size: 14px;
+        color: #999;
+        overflow: hidden;
+        span:nth-child(1){
+          width: 48%;
+          float: left;
+          text-align: right;
+        }
+        span:nth-child(2){
+          width: 48%;
+          float: right;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+
+}
+
+.Auth_head .adminInvoice_Prompt{
+  width: 100%;
+  height:100px;
+  border: 1px solid #ededed;
+  margin-top:10px;
+  font-size: 12px;
+  padding-top:10px;
+  background: #f6f6f6;
+  color: #666666;
+  .left{
+    width: 75px;
+    float: left;
+    text-align: center;
+  }
+  .right{
+    width: calc(100% - 75px);
+    float: left;
+  }
+  .invoice_money{
+    font-size: 16px;
+    color: #333;
+    p{
+      margin-top:5px;
+      &.text{
+        font-size: 12px;
+        color: #666;
+      }
+      span{
+        color: #fc725e;
+      }
+    }
+  }
+
+  .invoice_money:nth-child(1){
+    float: left;
+    padding-left:30px;
+    padding-top:10px;
+  }
+  .invoice_money:nth-child(2){
+    float: right;
+    padding-right:30px;
+    padding-top:10px;
+    .money_box{
+      float: left;
+      margin-right:30px;
+    }
+    p{
+      text-align: right;
+    }
+    button{
+      display: block;
+      width: 100px;
+      height:30px;
+      border: 1px solid #fc725e;
+      border-radius: 3px;
+      font-size: 14px;
+      color: #fc725e;
+      float: right;
+      margin-top:15px;
+      cursor: pointer;
+    }
+  }
+
+
+
+
+}
+
+
+

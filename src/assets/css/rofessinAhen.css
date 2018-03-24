@@ -1,0 +1,199 @@
+#Authen thead tr th:nth-child(1), #Authen thead tr th:nth-child(2) {
+  text-align: left;
+  padding-left: 60px !important; }
+
+#Authen tbody tr td:nth-child(1) {
+  text-align: left;
+  padding-left: 60px !important; }
+
+#Authen tbody tr td:nth-child(2) {
+  text-align: left;
+  padding: 8px 60px; }
+
+#Authen tbody tr td .ForwardChoice {
+  position: absolute;
+  width: 60px;
+  height: 100%;
+  top: 0;
+  left: 0; }
+  #Authen tbody tr td .ForwardChoice input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 50; }
+  #Authen tbody tr td .ForwardChoice span {
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+  #Authen tbody tr td .ForwardChoice input:checked + span {
+    border: 1px solid #fc725e;
+    background: #fc725e; }
+    #Authen tbody tr td .ForwardChoice input:checked + span:after {
+      content: '';
+      height: 4px;
+      width: 4px;
+      background: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto; }
+
+#Authen tbody tr td .cli {
+  width: 100%;
+  height: 100%; }
+  #Authen tbody tr td .cli ul {
+    width: 100%;
+    height: 26px;
+    padding-left: 17px; }
+    #Authen tbody tr td .cli ul li:last-child {
+      margin-right: 0; }
+    #Authen tbody tr td .cli ul li {
+      float: left;
+      position: relative;
+      width: 80px;
+      height: 100%;
+      margin-right: 16px; }
+      #Authen tbody tr td .cli ul li.big {
+        width: 104px; }
+      #Authen tbody tr td .cli ul li input {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        cursor: pointer; }
+      #Authen tbody tr td .cli ul li .li {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #fc725e;
+        border-radius: 4px;
+        text-align: center;
+        line-height: 26px;
+        color: #fc725e;
+        font-size: 12px; }
+      #Authen tbody tr td .cli ul li input:checked + .li {
+        background: #fc725e;
+        color: #fff;
+        border: 1px solid #fc725e; }
+      #Authen tbody tr td .cli ul li input:disabled + .li {
+        background: #fff;
+        color: #ccc;
+        border: 1px solid #ccc; }
+
+.AuthenName {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #999;
+  margin-top: 15px;
+  padding-left: 20px; }
+  .AuthenName span {
+    margin-right: 20px; }
+  .AuthenName strong {
+    font-size: 16px;
+    color: #333;
+    margin-right: 46px; }
+
+.AuthenInput {
+  width: 100%;
+  height: 65px;
+  padding-top: 10px; }
+  .AuthenInput label {
+    font-size: 14px;
+    color: #999;
+    margin-right: 20px;
+    float: left;
+    padding-top: 10px; }
+  .AuthenInput .select {
+    float: left;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+     }
+
+.AuthenForward {
+  width: 100%;
+  height: auto;
+  margin-bottom: 7px;
+  margin-top: 22px; }
+  .AuthenForward button {
+    width: 80px;
+    height: 30px;
+    background: #fc725e;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 15px; }
+  .AuthenForward label {
+    font-size: 12px;
+    color: #fc725e; }
+
+.AuthenBtn {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  text-align: center; }
+  .AuthenBtn button {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    background: #fc725e;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer; }
+  .AuthenBtn button:nth-child(1) {
+    margin-right: 30px; }
+
+.forward_infor {
+  width: 1100px;
+  height: 180px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -75px; }
+  .forward_infor ul {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px; }
+    .forward_infor ul li {
+      width: 100%;
+      height: auto;
+      margin-top: 30px;
+      padding-left: 60px; }
+      .forward_infor ul li:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both; }
+      .forward_infor ul li p:nth-child(1) {
+        width: 460px; }
+      .forward_infor ul li p {
+        float: left;
+        font-size: 14px;
+        color: #666;
+        font-weight: bold; }

@@ -1,0 +1,361 @@
+.Auth_head {
+    width: 100%;
+    height: auto;
+}
+.notes{
+    background: #fff;
+    margin-top:20px;
+    border-radius: 10px;
+    padding:30px;
+}
+.Auth_head .head_box {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+}
+
+.Auth_head .name {
+    font-size: 16px;
+    color: #000;
+    float: left;
+    display: block;
+    width: auto;
+}
+
+.Auth_head .jump {
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #6666ff;
+    padding-top: 6px;
+    cursor: pointer;
+}
+.Auth_head .jump.black{
+    color: #000;
+}
+.Auth_head .jump .iconfont{
+    font-size: 13px;
+}
+.Auth_head .jump .add {
+    display: block;
+    float: left;
+    margin-right: 6px;
+}
+
+.Auth_head .jump img {
+    display: block;
+    float: left;
+    margin-top: 2px;
+    width: 12px;
+}
+
+.Auth_content {
+    width: 100%;
+    height: auto;
+}
+
+.Auth_content .content_head {
+    width: 100%;
+    height: auto;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.Auth_content .content_head .ul_option {
+    float: left;
+    width: auto;
+    height: 30px;
+}
+
+.Auth_content .content_head .ul_option li {
+    float: left;
+    font-size: 12px;
+    padding: 6px 20px;
+    margin-right: 20px;
+    background: #ccc;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Auth_content .content_head .ul_option li span {
+    margin-left: 2px;
+}
+
+.Auth_content .content_head .ul_option li.active {
+    background: #fc725e;
+}
+.Auth_content .content_head .ul_option li.cancel{
+    width: 100px;
+    text-align: center;
+    background: #fff;
+    color: #fc725e;
+    border: 1px solid #fc725e;
+}
+.Auth_content .content_head .ul_option li.confirm{
+    width: 100px;
+    text-align: center;
+    background: #fc725e;
+    color: #fff;
+}
+.Auth_content .content_head .search {
+    float: right;
+    position: relative;
+}
+
+.Auth_content .content_head .search .search_input {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.Auth_content .content_head .search .button {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    margin: auto;
+    color: #fc725e;
+    font-size: 18px;
+    line-height: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.Auth_content .content_table {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.Auth_content .content_table .list {
+    width: 100%;
+    height: auto;
+    background: #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+.Auth_content .content_table .list thead {
+    width: 100%;
+    height: auto;
+}
+
+.Auth_content .content_table .list thead tr {
+    width: 100%;
+    height: auto;
+}
+
+.Auth_content .content_table .list thead tr th {
+    padding: 13px 0;
+    font-size: 12px;
+    color: #333;
+    border-right: 1px solid #ccc;
+}
+/*.Auth_content .content_table .list thead tr th.two {*/
+    /*width: 20%;*/
+/*}*/
+.Auth_content .content_table .list thead th:last-child {
+    border-right: 0;
+}
+
+.Auth_content .content_table .list tbody {
+    width: 100%;
+    height: auto;
+}
+
+.Auth_content .content_table .list tbody tr {
+    width: 100%;
+    height: auto;
+}
+
+.Auth_content .content_table .list tbody tr td {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+}
+
+.Auth_content .content_table .list tbody tr td .Triangle{
+    display: block;
+    width: 26px;
+    position: absolute;
+    right:7px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    cursor: pointer;
+}
+
+.Auth_content .content_table .list tbody tr td .invoiceOperation{
+    font-size: 12px;
+}
+.Auth_content .content_table .list tbody tr td .invoiceOperation button{
+    color: #ff6666;
+    cursor: pointer;
+}
+.Auth_content .content_table .list tbody tr td .invoiceOperation span{
+    color: #ccc;
+    margin:0 10px;
+}
+.Auth_content .content_table .list tbody tr td.serverWait{
+    color: #fc725e;
+}
+.Auth_content .content_table .list tbody tr td.serverComplete{
+    color: #66cc99;
+}
+.Auth_content .content_table .list tbody tr td.serverInvalid{
+    color: #ccc;
+}
+.Auth_content .content_table .list tbody tr td input[type='checkbox'],input[type='radio']{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    top:0;
+    left:0;
+}
+.Auth_content .content_table .list tbody tr td input[type='checkbox']:checked+.checkbox{
+    border: 1px solid #fc725e;
+    background: #fc725e;
+    position: relative;
+}
+.Auth_content .content_table .list tbody tr td input[type='checkbox']:checked+.checkbox:after{
+    content: '';
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+.Auth_content .content_table .list tbody tr td input[type='radio']:checked+.checkbox{
+    border: 1px solid #fc725e;
+    background: #fc725e;
+    position: relative;
+}
+.Auth_content .content_table .list tbody tr td input[type='radio'][checked='checked']+.checkbox:after{
+    content: '';
+    width: 4px;
+    height:4px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+}
+
+.Auth_content .content_table .list tbody tr td .checkbox{
+    width: 14px;
+    height:14px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin:0 auto;
+}
+.Auth_content .content_table .list tbody tr td .icon-zu{
+    font-size: 26px;
+    color: #3c5dd0;
+    position: absolute;
+    right:0;
+    top:8px;
+    display: block;
+    cursor: pointer;
+}
+.Auth_content .content_table .list tbody tr td.content{
+    padding:0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Auth_content .content_table .list tbody tr td.text_color{
+    color: #4ec26f;
+}
+
+.Auth_content .content_table .list tbody tr td.ell{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding:0 20px;
+}
+.Auth_content .content_table .list tbody tr td .button {
+    display: inline-block;
+    border-radius: 15px;
+    padding: 4px 23px;
+    font-size: 12px;
+    color: #fff;
+    outline: none;
+    background: #fc725e;
+    cursor: pointer;
+    border: 1px solid #fc725e;
+    transition: all 0.3s ease;
+}
+.Auth_content .content_table .list tbody tr td .button:hover {
+    background: #fff;
+    color: #fc725e;
+    border: 1px solid #fc725e;
+}
+.Auth_content .content_table .list tbody tr td  .Choice{
+    display: inline-block;
+    border-radius: 15px;
+    width: 80px;
+    padding: 4px 0;
+    font-size: 12px;
+    background: #fff;
+    color: #fc725e;
+    border: 1px solid #fc725e;
+    cursor: pointer;
+}
+.Auth_content .content_table .list tbody tr td .a_jump {
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #6666ff;
+}
+.Auth_content .content_table .list tbody tr td a.button_rapidly{
+    background: #3c5dd0;
+    color: #fff;
+    border:1px solid #3c5dd0;
+}
+.Auth_content .content_table .list tbody tr td a.button_additional{
+    background: #f2bd2f;
+    color: #fff;
+    border:1px solid #f2bd2f;
+}
+
+.Auth_content .content_table .list tbody tr td a.again{
+    color: #3c5dd0;
+    cursor: pointer;
+}
+.Auth_content .content_table .list tbody tr td span.Not_generated{
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 12px;
+    color: #ccc;
+}
+.Auth_content .content_table .list tbody tr.active{
+    background: #e7f2fc !important;
+}
+.Auth_content .content_table .list tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.Auth_content .content_table .list tbody tr:nth-child(even) {
+    background: #f6f6f6;
+}
